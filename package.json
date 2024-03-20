@@ -22,7 +22,7 @@
     "migration:create": "cd ./src/config/database/migrations && typeorm-ts-node-commonjs migration:create",
     "migration:run": "npm run typeorm migration:run -- -d ./src/config/database/datasource.ts",
     "migration:revert": "npm run typeorm migration:revert -- -d ./src/config/database/datasource.ts",
-    "nest:generate": "nest g resource"
+    "nest:generate": "nest generate resource"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
