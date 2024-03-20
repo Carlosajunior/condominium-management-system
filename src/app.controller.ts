@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+    console.log(__dirname + '/src/config/database/migrations');
     return this.appService.getHello();
   }
 }
